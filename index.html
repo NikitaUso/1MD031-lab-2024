@@ -1,103 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-       <title>BurgerOnline</title>
-       <meta charset="utf-8"/>
-   </head>
-   <body>
-        <header>
-            <h1>Välkommen till BurgerOnline</h1>
-        </header>
-
-        <main>
-            <section>
-                <h2>Välj din hamburgare</h2>
-            </section>
-
-            <section>
-
-            <div style="display: inline-block">
-            <h2>Cheeseburgare</h2>   
-            <img src="borgir1.jpg" width="200" height="200" />
-            <ul>
-                <li>Bröd</li>
-                <li>Kött</li>
-                <li>Ost</li>
-            </ul>
-            </div>
-
-            <div style="display: inline-block">
-                <h2>Cheeseburgare</h2>   
-                <img src="borgir1.jpg" width="200" height="200" />
-                <ul>
-                    <li>Bröd</li>
-                    <li>Kött</li>
-                    <li>Ost</li>
-                </ul>
-                </div>
-
-            <div style="display: inline-block"> 
-            <h2>Cheeseburgare</h2>   
-            <img src="borgir1.jpg" width="200" height="200" />
-            <ul>
-                <li>Bröd</li>
-                <li>Kött</li>
-                <li>Ost</li>
-            </ul>
-            </div>
-
-            </section>
-
-            <section>
-                <h2>Kundinformation</h2>
-
-                <p>
-                    <label for="fullname">Full Name</label><br>
-                    <input type="text" id="fullname" name="fn" required="required" placeholder="Full name">
-                </p>
-                <p>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-                </p>
-                <p>
-                    <label for="streetaddress">Street address</label><br>
-                    <input type="text" id="streetname" name="fn" required="required" placeholder="Street address">
-                </p>
-                <p>
-                    <label for="number">Number</label><br>
-                    <input type="number" id="number" name="numb" required="required" placeholder="Number">
-                </p>
-                <p>
-                    <label for="pay">Payment method</label><br>
-                    <select id="pay" name="pay">
-                        <option>Card</option>
-                        <option>PayPal</option>
-                        <option>Swish</option>
-                        <option>Klarna</option>
-                    </select>
-                </p>
-                <p>
-                    <label>Gender</label><br>
-                    <input type="radio" checked="checked" id="male" name="gend" value="male" required>
-                    <label for="male">Man</label><br>
-                
-                    <input type="radio" id="female" name="gend" value="female">
-                    <label for="female">Kvinna</label><br>
-                
-                    <input type="radio" id="other" name="gend" value="other">
-                    <label for="other">Annat</label>
-                </p>
-
-                <button type="submit">
-                    <img src="foodora.jpg" width="15" height="15">
-                    Send Info
-                  </button>
-                  
-            </section>
-        </main>
-        <hr>
-        <footer>
-            End notes
-        </footer>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

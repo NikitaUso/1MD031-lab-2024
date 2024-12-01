@@ -1,21 +1,25 @@
 [{
-    "name": "Veggie Bliss", 
+    "name": "Cheeseburger", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "lactose": true, 
+    "gluten": false,
+    "img": "/public/borgir2.jpg"
 },
+
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Krabby Patty",
+    "kCal": 600,
+    "lactose": false,
+    "gluten": true,
+    "img": "/public/krabby1.jpg"
 },
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+
+{   
+    "name": "Big Mac",
+    "kCal": 850,
+    "lactose": true,
+    "gluten": true,
+    "img": "/public/burger1.jpg"
+}
+
+]

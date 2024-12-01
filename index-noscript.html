@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>BurgerOnline</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+   <body>
+    <header class="header-container">
+        <img src="krusty.jpeg" alt="Header Image" class="header-image">
+        <h1 class="header-title">Welcome to BurgerOnline</h1>
+    </header>
+        <main>
+            <section>
+                <h2>Choose your burger</h2>
+            </section>
+
+            <section id="burgers" class="grid-container" style ="border: 2px dotted white;">
+                <div class="burger-item">
+                    <h2>Cheeseburger</h2>
+                    <img src="borgir2.jpg" width="200" height="200" />
+                    <ul id="cheeseburger">
+                        <li class="ingredient">Bread</li>
+                        <li class="ingredient">Meat</li>
+                        <li class="ingredient">Cheese</li>
+                    </ul>
+                </div>
+            
+                <div class="burger-item">
+                    <h2>Krabby Patty</h2>
+                    <img src="krabby1.jpg" width="200" height="200" />
+                    <ul>
+                        <li class="ingredient">Bread</li>
+                        <li class="ingredient">Meat</li>
+                        <li class="ingredient">Cheese</li>
+                    </ul>
+                </div>
+                
+                <div class="burger-item">
+                    <h2>Big Mac</h2>
+                    <img src="burger1.jpg" width="200" height="200" />
+                    <ul>
+                        <li class="ingredient">Bread</li>
+                        <li class="ingredient">Meat</li>
+                        <li class="ingredient">Cheese</li>
+                    </ul>
+                </div>
+            </section>
+            
+
+            <section id = "customer-information" style = "border: 2px dotted black;">
+                <h2>Customer information</h2>
+
+                <p>
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="Full name">
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="streetaddress">Street address</label><br>
+                    <input type="text" id="streetname" name="fn" required="required" placeholder="Street address">
+                </p>
+                <p>
+                    <label for="number">Number</label><br>
+                    <input type="number" id="number" name="numb" required="required" placeholder="Number">
+                </p>
+                <p>
+                    <label for="pay">Payment method</label><br>
+                    <select id="pay" name="pay">
+                        <option>Card</option>
+                        <option>PayPal</option>
+                        <option>Swish</option>
+                        <option>Klarna</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Gender</label><br>
+                    <input type="radio" checked="checked" id="male" name="gend" value="male" required>
+                    <label for="male">Man</label><br>
+                
+                    <input type="radio" id="female" name="gend" value="female">
+                    <label for="female">Woman</label><br>
+                
+                    <input type="radio" id="other" name="gend" value="other">
+                    <label for="other">Other</label>
+                </p>
+
+                <button type="submit">
+                    <img src="foodora.jpg" width="15" height="15">
+                    Send Info
+                  </button>
+                  
+            </section>
+        </main>
+        <hr>
+        <footer>
+            End notes
+        </footer>
+   </body>
+</html>
